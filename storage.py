@@ -1,9 +1,11 @@
 global store
-codes = ('1', '2', '3')
+codes = ('1', '2', '3', '4', '5')
 store = {
-    '1': {'name': 'Papel', 'required': 'Tabaco y Fósforos', 'flag': False, 'request': None},
-    '2': {'name': 'Tabaco', 'required': 'Papel y Fósforos', 'flag': False, 'request': None},
-    '3': {'name': 'Fósforos', 'required': 'Papel y Tabaco', 'flag': False, 'request': None},
+    '1': {'name': 'Papel', 'required': 'Tabaco, Fósforos, Filtros y Green', 'flag': False, 'request': None},
+    '2': {'name': 'Tabaco', 'required': 'Papel, Fósforos, Filtros y Green', 'flag': False, 'request': None},
+    '3': {'name': 'Fósforos', 'required': 'Papel, Tabaco, Filtros y Green', 'flag': False, 'request': None},
+    '4': {'name': 'Filtros', 'required': 'Papel, Tabaco, Fósforos y Green', 'flag': False, 'request': None},
+    '5': {'name': 'Green', 'required': 'Papel, Tabaco, Fósforos y Filtros', 'flag': False, 'request': None},
 }
 
 time_smoke = 5
